@@ -132,7 +132,7 @@ export default function CartPage() {
                   Continuar con la compra
                 </Button>
 
-                <Link href="/">
+                <Link href="https://www.usaimport.com.ar/productos">
                   <Button
                     variant="outline"
                     className="w-full mt-3 border-gray-300 hover:bg-gray-50 text-black bg-transparent"
