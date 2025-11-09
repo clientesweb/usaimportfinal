@@ -96,6 +96,12 @@ export default function Header() {
             <Link href="/productos" className="text-white hover:text-blue-400 transition font-medium whitespace-nowrap">
               Productos
             </Link>
+            <Link
+              href="/como-comprar"
+              className="text-white hover:text-blue-400 transition font-medium whitespace-nowrap"
+            >
+              Cómo Comprar
+            </Link>
             <Link href="/faqs" className="text-white hover:text-blue-400 transition font-medium whitespace-nowrap">
               FAQs
             </Link>
