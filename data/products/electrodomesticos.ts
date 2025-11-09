@@ -1,0 +1,131 @@
+import type { Product } from "../featured-products"
+
+export const electrodomesticosProducts: Product[] = [
+  {
+    id: 59,
+    name: "Suono - Máquina de Hielo",
+    price: 145000,
+    image: "/maquina-hielo-suono.webp",
+    category: "Electrodomésticos",
+    slug: "maquina-hielo-suono",
+    description: "Máquina de hielo Suono portátil para hacer cubos de hielo en minutos.",
+    fullDescription:
+      "Produce hielo fresco en cuestión de minutos con esta máquina de hielo portátil Suono. Perfecta para fiestas, reuniones familiares o uso diario en casa u oficina.\n\nCapacidad para producir hasta 12kg de hielo por día. Ciclo de producción rápido de 6-8 minutos por tanda. Diseño compacto y portátil que cabe en cualquier encimera.\n\nPanel de control intuitivo con indicadores LED. Incluye cesta extraíble para hielo y pala. Tanque de agua transparente para monitorear el nivel. Funcionamiento silencioso y eficiente energéticamente.",
+    images: ["/maquina-hielo-suono.webp"],
+    features: [
+      "Produce hasta 12kg de hielo/día",
+      "Ciclo rápido 6-8 minutos",
+      "Diseño compacto y portátil",
+      "Panel de control LED",
+      "Cesta extraíble incluida",
+      "Pala para hielo incluida",
+      "Tanque transparente",
+      "Funcionamiento silencioso",
+    ],
+  },
+  {
+    id: 63,
+    name: "Placa Infrarroja",
+    price: 40500,
+    image: "/placa-infrarroja.jpeg",
+    category: "Electrodomésticos",
+    slug: "placa-infrarroja",
+    description: "Placa de cocción infrarroja portátil con controles digitales y múltiples niveles de potencia.",
+    fullDescription:
+      "Cocina de manera eficiente y segura con esta placa de cocción infrarroja portátil. Tecnología de calentamiento infrarrojo que distribuye el calor de manera uniforme para una cocción perfecta.\n\nPanel de control digital con pantalla LED que muestra la temperatura y el tiempo de cocción. Múltiples niveles de potencia ajustables para diferentes tipos de preparaciones. Funciones preestablecidas para cocinar, freír, hervir y mantener caliente.\n\nSuperficie de cristal templado fácil de limpiar y resistente a altas temperaturas. Diseño compacto y portátil ideal para cocinas pequeñas, apartamentos, oficinas o como placa adicional. Sistema de seguridad con apagado automático y protección contra sobrecalentamiento.",
+    images: ["/placa-infrarroja.jpeg"],
+    features: [
+      "Tecnología infrarroja",
+      "Panel de control digital",
+      "Pantalla LED",
+      "Múltiples niveles de potencia",
+      "Funciones preestablecidas",
+      "Superficie de cristal templado",
+      "Fácil de limpiar",
+      "Apagado automático",
+      "Protección contra sobrecalentamiento",
+      "Diseño compacto y portátil",
+    ],
+  },
+  {
+    id: 73,
+    name: "FREIDORA DE AIRE - 3.5L - 220V",
+    price: 53500,
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/FREIDORA%20DE%20AIRE%20-%203.5L%20-%20220V.png-lau5BIcUJW9ZFx2Qvf0L65MEy6cUJd.webp",
+    category: "Electrodomésticos",
+    slug: "freidora-aire-3-5l-220v",
+    description: "Freidora de aire BAK de 3.5L de capacidad con tecnología de circulación de aire caliente.",
+    fullDescription:
+      "Disfruta de comidas más saludables con la freidora de aire BAK de 3.5L. Utiliza tecnología de circulación de aire caliente para cocinar tus alimentos favoritos con hasta 85% menos grasa que las freidoras tradicionales.\n\nCapacidad de 3.5 litros ideal para familias de 2-4 personas. Controles de temperatura ajustables y temporizador integrado para cocinar con precisión. Panel de control intuitivo con botones táctiles.\n\nCocina papas fritas, pollo, pescado, verduras y mucho más con resultados crujientes por fuera y jugosos por dentro. Cesta antiadherente extraíble fácil de limpiar. Apagado automático y protección contra sobrecalentamiento. Voltaje: 220V. Diseño compacto en color negro elegante.",
+    images: [
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/FREIDORA%20DE%20AIRE%20-%203.5L%20-%20220V.png-lau5BIcUJW9ZFx2Qvf0L65MEy6cUJd.webp",
+    ],
+    features: [
+      "Capacidad: 3.5 litros",
+      "Marca: BAK",
+      "Voltaje: 220V",
+      "Hasta 85% menos grasa",
+      "Tecnología de aire caliente",
+      "Controles de temperatura ajustables",
+      "Temporizador integrado",
+      "Cesta antiadherente extraíble",
+      "Apagado automático",
+      "Diseño compacto negro",
+    ],
+  },
+  {
+    id: 75,
+    name: "EPSON L1250",
+    price: 298000,
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/EPSON%20L1250.png-vluExp8GYgqx1pRgvbOLqstfWUYwiY.jpeg",
+    category: "Electrodomésticos",
+    slug: "epson-l1250",
+    description: "Impresora Epson L1250 EcoTank 100% sin cartuchos con tintas incluidas y app Epson Smart Panel.",
+    fullDescription:
+      "La impresora Epson L1250 EcoTank revoluciona la forma de imprimir con su sistema de tanques de tinta recargables. Impresión 100% sin cartuchos, lo que significa ahorro significativo en costos de impresión a largo plazo.\n\nImprime a través de la aplicación Epson Smart Panel desde tu smartphone o tablet. Conectividad WiFi para imprimir desde cualquier dispositivo de tu red. Viene con sus tintas de regalo incluidas para que comiences a imprimir de inmediato.\n\nSistema EcoTank con tanques de tinta de alta capacidad visibles en el frente de la impresora. Calidad de impresión profesional para documentos y fotos. Ideal para uso doméstico y pequeñas oficinas con alto volumen de impresión. Fácil recarga de tintas sin derrames.",
+    images: [
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/EPSON%20L1250.png-vluExp8GYgqx1pRgvbOLqstfWUYwiY.jpeg",
+    ],
+    features: [
+      "Impresión 100% sin cartuchos",
+      "Sistema EcoTank",
+      "App Epson Smart Panel",
+      "Tintas incluidas de regalo",
+      "Conectividad WiFi",
+      "Tanques de alta capacidad",
+      "Calidad profesional",
+      "Fácil recarga sin derrames",
+      "Ahorro en costos de impresión",
+      "Ideal para alto volumen",
+    ],
+  },
+  {
+    id: 99,
+    name: "Aire acondicionado NOBLEX",
+    price: 610000,
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Aire%20acondicionado%20NOBLEX-CFjMbPs4JrY4XHDo1l3dpucVULZYiy.png",
+    category: "Electrodomésticos",
+    slug: "aire-acondicionado-noblex",
+    description: "Aire acondicionado NOBLEX Inverter Eco Cooling disponible en 3.000, 4.500 y 6.000 frigorías.",
+    fullDescription:
+      "El aire acondicionado NOBLEX con tecnología Inverter Eco Cooling ofrece eficiencia energética superior y un rendimiento óptimo para mantener tu hogar fresco y confortable durante todo el año.\n\nDisponible en tres capacidades para adaptarse a diferentes tamaños de ambientes:\n- 3.000 frigorías: Ideal para habitaciones pequeñas (hasta 25m²)\n- 4.500 frigorías: Perfecto para habitaciones medianas (hasta 35m²)\n- 6.000 frigorías: Excelente para espacios grandes (hasta 50m²)\n\nTecnología Inverter que ajusta automáticamente la velocidad del compresor para mantener la temperatura deseada con menor consumo energético. Sistema Eco Cooling que optimiza el rendimiento y reduce el impacto ambiental. Incluye unidad interior, unidad exterior y control remoto. Función de calefacción y refrigeración (frío/calor). Filtros lavables para mantener el aire limpio. Funcionamiento silencioso ideal para dormitorios y oficinas.",
+    images: [
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Aire%20acondicionado%20NOBLEX-CFjMbPs4JrY4XHDo1l3dpucVULZYiy.png",
+    ],
+    features: [
+      "Frigorías: 3.000 / 4.500 / 6.000",
+      "Tecnología Inverter",
+      "Eco Cooling",
+      "Frío/Calor",
+      "Eficiencia energética superior",
+      "Control remoto incluido",
+      "Filtros lavables",
+      "Funcionamiento silencioso",
+      "Unidad interior y exterior",
+      "Bajo consumo energético",
+    ],
+  },
+]
